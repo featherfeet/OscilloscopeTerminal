@@ -1,0 +1,1145 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 618CD54B
+P 3150 3350
+F 0 "J?" H 3200 4467 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 3200 4376 50  0000 C CNN
+F 2 "" H 3150 3350 50  0001 C CNN
+F 3 "~" H 3150 3350 50  0001 C CNN
+	1    3150 3350
+	1    0    0    -1  
+$EndComp
+Text Label 2950 2450 2    50   ~ 0
+IO_A0
+Text Label 3450 2450 0    50   ~ 0
+IO_A1
+Text Label 2950 2550 2    50   ~ 0
+IO_A2
+Text Label 3450 2550 0    50   ~ 0
+IO_A3
+Text Label 2950 2650 2    50   ~ 0
+IO_A4
+Text Label 3450 2650 0    50   ~ 0
+IO_A5
+Text Label 2950 2750 2    50   ~ 0
+IO_A6
+Text Label 3450 2750 0    50   ~ 0
+IO_A7
+Text Label 2950 2850 2    50   ~ 0
+IO_A8
+Text Label 3450 2850 0    50   ~ 0
+IO_A9
+Text Label 2950 2950 2    50   ~ 0
++5V
+Text Label 3450 2950 0    50   ~ 0
+GND
+Text Label 2950 3050 2    50   ~ 0
+IO_A10
+Text Label 3450 3050 0    50   ~ 0
+IO_A11
+Text Label 2950 3150 2    50   ~ 0
+IO_A12
+Text Label 3450 3150 0    50   ~ 0
+IO_A13
+Text Label 2950 3250 2    50   ~ 0
+IO_A14
+Text Label 3450 3250 0    50   ~ 0
+IO_A15
+Text Label 2950 3350 2    50   ~ 0
+IO_A16
+Text Label 3450 3350 0    50   ~ 0
+IO_A17
+Text Label 2950 3450 2    50   ~ 0
+IO_A18
+Text Label 3450 3450 0    50   ~ 0
+IO_A19
+Text Label 2950 3550 2    50   ~ 0
+IO_A20
+Text Label 3450 3550 0    50   ~ 0
+IO_A21
+Text Label 2950 3650 2    50   ~ 0
+IO_A22
+Text Label 3450 3650 0    50   ~ 0
+IO_A23
+Text Label 2950 3750 2    50   ~ 0
+IO_A24
+Text Label 3450 3750 0    50   ~ 0
+IO_A25
+Text Label 2950 3850 2    50   ~ 0
++3.3V
+Text Label 3450 3850 0    50   ~ 0
+GND
+Text Label 2950 3950 2    50   ~ 0
+IO_A26
+Text Label 3450 3950 0    50   ~ 0
+IO_A27
+Text Label 2950 4050 2    50   ~ 0
+IO_A28
+Text Label 3450 4050 0    50   ~ 0
+IO_A29
+Text Label 2950 4150 2    50   ~ 0
+IO_A30
+Text Label 3450 4150 0    50   ~ 0
+IO_A31
+Text Label 2950 4250 2    50   ~ 0
+IO_A32
+Text Label 3450 4250 0    50   ~ 0
+IO_A33
+Text Label 2950 4350 2    50   ~ 0
+IO_A34
+Text Label 3450 4350 0    50   ~ 0
+IO_A35
+$Comp
+L Device:R R?
+U 1 1 618D67E1
+P 4600 2500
+F 0 "R?" H 4670 2546 50  0000 L CNN
+F 1 "200 K" H 4670 2455 50  0000 L CNN
+F 2 "" V 4530 2500 50  0001 C CNN
+F 3 "~" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618D6FF1
+P 4600 2200
+F 0 "R?" H 4670 2246 50  0000 L CNN
+F 1 "200 K" H 4670 2155 50  0000 L CNN
+F 2 "" V 4530 2200 50  0001 C CNN
+F 3 "~" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+Text Label 4600 2050 0    50   ~ 0
+GND
+Text Label 4600 2650 3    50   ~ 0
+IO_A0
+$Comp
+L Device:R R?
+U 1 1 618D81A9
+P 5100 2350
+F 0 "R?" V 4893 2350 50  0000 C CNN
+F 1 "100 K" V 4984 2350 50  0000 C CNN
+F 2 "" V 5030 2350 50  0001 C CNN
+F 3 "~" H 5100 2350 50  0001 C CNN
+	1    5100 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2350 4950 2350
+Connection ~ 4600 2350
+Wire Wire Line
+	5250 2350 5450 2350
+$Comp
+L Device:R R?
+U 1 1 618D97F3
+P 5450 2500
+F 0 "R?" H 5520 2546 50  0000 L CNN
+F 1 "200 K" H 5520 2455 50  0000 L CNN
+F 2 "" V 5380 2500 50  0001 C CNN
+F 3 "~" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	1    0    0    -1  
+$EndComp
+Text Label 5450 2650 3    50   ~ 0
+IO_A1
+$Comp
+L Device:R R?
+U 1 1 618DA779
+P 6050 2500
+F 0 "R?" H 6120 2546 50  0000 L CNN
+F 1 "200 K" H 6120 2455 50  0000 L CNN
+F 2 "" V 5980 2500 50  0001 C CNN
+F 3 "~" H 6050 2500 50  0001 C CNN
+	1    6050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618DAD7B
+P 6650 2500
+F 0 "R?" H 6720 2546 50  0000 L CNN
+F 1 "200 K" H 6720 2455 50  0000 L CNN
+F 2 "" V 6580 2500 50  0001 C CNN
+F 3 "~" H 6650 2500 50  0001 C CNN
+	1    6650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618DB023
+P 7200 2500
+F 0 "R?" H 7270 2546 50  0000 L CNN
+F 1 "200 K" H 7270 2455 50  0000 L CNN
+F 2 "" V 7130 2500 50  0001 C CNN
+F 3 "~" H 7200 2500 50  0001 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618DB725
+P 7750 2500
+F 0 "R?" H 7820 2546 50  0000 L CNN
+F 1 "200 K" H 7820 2455 50  0000 L CNN
+F 2 "" V 7680 2500 50  0001 C CNN
+F 3 "~" H 7750 2500 50  0001 C CNN
+	1    7750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618DBCDA
+P 8300 2500
+F 0 "R?" H 8370 2546 50  0000 L CNN
+F 1 "200 K" H 8370 2455 50  0000 L CNN
+F 2 "" V 8230 2500 50  0001 C CNN
+F 3 "~" H 8300 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618DBF49
+P 8850 2500
+F 0 "R?" H 8920 2546 50  0000 L CNN
+F 1 "200 K" H 8920 2455 50  0000 L CNN
+F 2 "" V 8780 2500 50  0001 C CNN
+F 3 "~" H 8850 2500 50  0001 C CNN
+	1    8850 2500
+	1    0    0    -1  
+$EndComp
+Text Label 6050 2650 3    50   ~ 0
+IO_A2
+Text Label 6650 2650 3    50   ~ 0
+IO_A3
+Text Label 7200 2650 3    50   ~ 0
+IO_A4
+Text Label 7750 2650 3    50   ~ 0
+IO_A5
+Text Label 8300 2650 3    50   ~ 0
+IO_A6
+Text Label 8850 2650 3    50   ~ 0
+IO_A7
+$Comp
+L Device:R R?
+U 1 1 618E09F3
+P 5750 2350
+F 0 "R?" V 5543 2350 50  0000 C CNN
+F 1 "100 K" V 5634 2350 50  0000 C CNN
+F 2 "" V 5680 2350 50  0001 C CNN
+F 3 "~" H 5750 2350 50  0001 C CNN
+	1    5750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618E11C6
+P 6350 2350
+F 0 "R?" V 6143 2350 50  0000 C CNN
+F 1 "100 K" V 6234 2350 50  0000 C CNN
+F 2 "" V 6280 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+	1    6350 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618E1588
+P 6950 2350
+F 0 "R?" V 6743 2350 50  0000 C CNN
+F 1 "100 K" V 6834 2350 50  0000 C CNN
+F 2 "" V 6880 2350 50  0001 C CNN
+F 3 "~" H 6950 2350 50  0001 C CNN
+	1    6950 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618E1846
+P 7450 2350
+F 0 "R?" V 7243 2350 50  0000 C CNN
+F 1 "100 K" V 7334 2350 50  0000 C CNN
+F 2 "" V 7380 2350 50  0001 C CNN
+F 3 "~" H 7450 2350 50  0001 C CNN
+	1    7450 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618E1C01
+P 8000 2350
+F 0 "R?" V 7793 2350 50  0000 C CNN
+F 1 "100 K" V 7884 2350 50  0000 C CNN
+F 2 "" V 7930 2350 50  0001 C CNN
+F 3 "~" H 8000 2350 50  0001 C CNN
+	1    8000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618E1FDB
+P 8550 2350
+F 0 "R?" V 8343 2350 50  0000 C CNN
+F 1 "100 K" V 8434 2350 50  0000 C CNN
+F 2 "" V 8480 2350 50  0001 C CNN
+F 3 "~" H 8550 2350 50  0001 C CNN
+	1    8550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 2350 5600 2350
+Connection ~ 5450 2350
+Wire Wire Line
+	5900 2350 6050 2350
+Wire Wire Line
+	6050 2350 6200 2350
+Connection ~ 6050 2350
+Wire Wire Line
+	6500 2350 6650 2350
+Wire Wire Line
+	6650 2350 6800 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	7100 2350 7200 2350
+Wire Wire Line
+	7200 2350 7300 2350
+Connection ~ 7200 2350
+Wire Wire Line
+	7600 2350 7750 2350
+Wire Wire Line
+	7750 2350 7850 2350
+Connection ~ 7750 2350
+Wire Wire Line
+	8150 2350 8300 2350
+Wire Wire Line
+	8300 2350 8400 2350
+Connection ~ 8300 2350
+Wire Wire Line
+	8700 2350 8850 2350
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 618EA429
+P 9650 2450
+F 0 "U?" H 9650 2817 50  0000 C CNN
+F 1 "LM324" H 9650 2726 50  0000 C CNN
+F 2 "" H 9600 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9700 2650 50  0001 C CNN
+	1    9650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2350 9350 2350
+Connection ~ 8850 2350
+Wire Wire Line
+	9950 2450 10400 2450
+Wire Wire Line
+	9350 2550 9350 2800
+Wire Wire Line
+	9350 2800 9950 2800
+Wire Wire Line
+	9950 2800 9950 2450
+Connection ~ 9950 2450
+$Comp
+L Device:R R?
+U 1 1 618FB9E8
+P 4600 3700
+F 0 "R?" H 4670 3746 50  0000 L CNN
+F 1 "200 K" H 4670 3655 50  0000 L CNN
+F 2 "" V 4530 3700 50  0001 C CNN
+F 3 "~" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FB9EE
+P 4600 3400
+F 0 "R?" H 4670 3446 50  0000 L CNN
+F 1 "200 K" H 4670 3355 50  0000 L CNN
+F 2 "" V 4530 3400 50  0001 C CNN
+F 3 "~" H 4600 3400 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+Text Label 4600 3250 0    50   ~ 0
+GND
+Text Label 4600 3850 3    50   ~ 0
+IO_A8
+$Comp
+L Device:R R?
+U 1 1 618FB9F6
+P 5100 3550
+F 0 "R?" V 4893 3550 50  0000 C CNN
+F 1 "100 K" V 4984 3550 50  0000 C CNN
+F 2 "" V 5030 3550 50  0001 C CNN
+F 3 "~" H 5100 3550 50  0001 C CNN
+	1    5100 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3550 4950 3550
+Connection ~ 4600 3550
+Wire Wire Line
+	5250 3550 5450 3550
+$Comp
+L Device:R R?
+U 1 1 618FB9FF
+P 5450 3700
+F 0 "R?" H 5520 3746 50  0000 L CNN
+F 1 "200 K" H 5520 3655 50  0000 L CNN
+F 2 "" V 5380 3700 50  0001 C CNN
+F 3 "~" H 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+Text Label 5450 3850 3    50   ~ 0
+IO_A9
+$Comp
+L Device:R R?
+U 1 1 618FBA06
+P 6050 3700
+F 0 "R?" H 6120 3746 50  0000 L CNN
+F 1 "200 K" H 6120 3655 50  0000 L CNN
+F 2 "" V 5980 3700 50  0001 C CNN
+F 3 "~" H 6050 3700 50  0001 C CNN
+	1    6050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA0C
+P 6650 3700
+F 0 "R?" H 6720 3746 50  0000 L CNN
+F 1 "200 K" H 6720 3655 50  0000 L CNN
+F 2 "" V 6580 3700 50  0001 C CNN
+F 3 "~" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA12
+P 7200 3700
+F 0 "R?" H 7270 3746 50  0000 L CNN
+F 1 "200 K" H 7270 3655 50  0000 L CNN
+F 2 "" V 7130 3700 50  0001 C CNN
+F 3 "~" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA18
+P 7750 3700
+F 0 "R?" H 7820 3746 50  0000 L CNN
+F 1 "200 K" H 7820 3655 50  0000 L CNN
+F 2 "" V 7680 3700 50  0001 C CNN
+F 3 "~" H 7750 3700 50  0001 C CNN
+	1    7750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA1E
+P 8300 3700
+F 0 "R?" H 8370 3746 50  0000 L CNN
+F 1 "200 K" H 8370 3655 50  0000 L CNN
+F 2 "" V 8230 3700 50  0001 C CNN
+F 3 "~" H 8300 3700 50  0001 C CNN
+	1    8300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA24
+P 8850 3700
+F 0 "R?" H 8920 3746 50  0000 L CNN
+F 1 "200 K" H 8920 3655 50  0000 L CNN
+F 2 "" V 8780 3700 50  0001 C CNN
+F 3 "~" H 8850 3700 50  0001 C CNN
+	1    8850 3700
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3850 3    50   ~ 0
+IO_A10
+Text Label 6650 3850 3    50   ~ 0
+IO_A11
+Text Label 7200 3850 3    50   ~ 0
+IO_A12
+Text Label 7750 3850 3    50   ~ 0
+IO_A13
+Text Label 8300 3850 3    50   ~ 0
+IO_A14
+Text Label 8850 3850 3    50   ~ 0
+IO_A15
+$Comp
+L Device:R R?
+U 1 1 618FBA30
+P 5750 3550
+F 0 "R?" V 5543 3550 50  0000 C CNN
+F 1 "100 K" V 5634 3550 50  0000 C CNN
+F 2 "" V 5680 3550 50  0001 C CNN
+F 3 "~" H 5750 3550 50  0001 C CNN
+	1    5750 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA36
+P 6350 3550
+F 0 "R?" V 6143 3550 50  0000 C CNN
+F 1 "100 K" V 6234 3550 50  0000 C CNN
+F 2 "" V 6280 3550 50  0001 C CNN
+F 3 "~" H 6350 3550 50  0001 C CNN
+	1    6350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA3C
+P 6950 3550
+F 0 "R?" V 6743 3550 50  0000 C CNN
+F 1 "100 K" V 6834 3550 50  0000 C CNN
+F 2 "" V 6880 3550 50  0001 C CNN
+F 3 "~" H 6950 3550 50  0001 C CNN
+	1    6950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA42
+P 7450 3550
+F 0 "R?" V 7243 3550 50  0000 C CNN
+F 1 "100 K" V 7334 3550 50  0000 C CNN
+F 2 "" V 7380 3550 50  0001 C CNN
+F 3 "~" H 7450 3550 50  0001 C CNN
+	1    7450 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA48
+P 8000 3550
+F 0 "R?" V 7793 3550 50  0000 C CNN
+F 1 "100 K" V 7884 3550 50  0000 C CNN
+F 2 "" V 7930 3550 50  0001 C CNN
+F 3 "~" H 8000 3550 50  0001 C CNN
+	1    8000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618FBA4E
+P 8550 3550
+F 0 "R?" V 8343 3550 50  0000 C CNN
+F 1 "100 K" V 8434 3550 50  0000 C CNN
+F 2 "" V 8480 3550 50  0001 C CNN
+F 3 "~" H 8550 3550 50  0001 C CNN
+	1    8550 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3550 5600 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	5900 3550 6050 3550
+Wire Wire Line
+	6050 3550 6200 3550
+Connection ~ 6050 3550
+Wire Wire Line
+	6500 3550 6650 3550
+Wire Wire Line
+	6650 3550 6800 3550
+Connection ~ 6650 3550
+Wire Wire Line
+	7100 3550 7200 3550
+Wire Wire Line
+	7200 3550 7300 3550
+Connection ~ 7200 3550
+Wire Wire Line
+	7600 3550 7750 3550
+Wire Wire Line
+	7750 3550 7850 3550
+Connection ~ 7750 3550
+Wire Wire Line
+	8150 3550 8300 3550
+Wire Wire Line
+	8300 3550 8400 3550
+Connection ~ 8300 3550
+Wire Wire Line
+	8700 3550 8850 3550
+Wire Wire Line
+	8850 3550 9350 3550
+Connection ~ 8850 3550
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 618FCCCE
+P 9650 3650
+F 0 "U?" H 9650 4017 50  0000 C CNN
+F 1 "LM324" H 9650 3926 50  0000 C CNN
+F 2 "" H 9600 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9700 3850 50  0001 C CNN
+	2    9650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3750 9350 4000
+Wire Wire Line
+	9350 4000 9950 4000
+Wire Wire Line
+	9950 4000 9950 3650
+Wire Wire Line
+	9950 3650 10400 3650
+Connection ~ 9950 3650
+$Comp
+L Device:R R?
+U 1 1 6190C70A
+P 4600 4900
+F 0 "R?" H 4670 4946 50  0000 L CNN
+F 1 "200 K" H 4670 4855 50  0000 L CNN
+F 2 "" V 4530 4900 50  0001 C CNN
+F 3 "~" H 4600 4900 50  0001 C CNN
+	1    4600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C710
+P 4600 4600
+F 0 "R?" H 4670 4646 50  0000 L CNN
+F 1 "200 K" H 4670 4555 50  0000 L CNN
+F 2 "" V 4530 4600 50  0001 C CNN
+F 3 "~" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	1    0    0    -1  
+$EndComp
+Text Label 4600 4450 0    50   ~ 0
+GND
+Text Label 4600 5050 3    50   ~ 0
+IO_A16
+$Comp
+L Device:R R?
+U 1 1 6190C718
+P 5100 4750
+F 0 "R?" V 4893 4750 50  0000 C CNN
+F 1 "100 K" V 4984 4750 50  0000 C CNN
+F 2 "" V 5030 4750 50  0001 C CNN
+F 3 "~" H 5100 4750 50  0001 C CNN
+	1    5100 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4750 4950 4750
+Connection ~ 4600 4750
+Wire Wire Line
+	5250 4750 5450 4750
+$Comp
+L Device:R R?
+U 1 1 6190C721
+P 5450 4900
+F 0 "R?" H 5520 4946 50  0000 L CNN
+F 1 "200 K" H 5520 4855 50  0000 L CNN
+F 2 "" V 5380 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Text Label 5450 5050 3    50   ~ 0
+IO_A17
+$Comp
+L Device:R R?
+U 1 1 6190C728
+P 6050 4900
+F 0 "R?" H 6120 4946 50  0000 L CNN
+F 1 "200 K" H 6120 4855 50  0000 L CNN
+F 2 "" V 5980 4900 50  0001 C CNN
+F 3 "~" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C72E
+P 6650 4900
+F 0 "R?" H 6720 4946 50  0000 L CNN
+F 1 "200 K" H 6720 4855 50  0000 L CNN
+F 2 "" V 6580 4900 50  0001 C CNN
+F 3 "~" H 6650 4900 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C734
+P 7200 4900
+F 0 "R?" H 7270 4946 50  0000 L CNN
+F 1 "200 K" H 7270 4855 50  0000 L CNN
+F 2 "" V 7130 4900 50  0001 C CNN
+F 3 "~" H 7200 4900 50  0001 C CNN
+	1    7200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C73A
+P 7750 4900
+F 0 "R?" H 7820 4946 50  0000 L CNN
+F 1 "200 K" H 7820 4855 50  0000 L CNN
+F 2 "" V 7680 4900 50  0001 C CNN
+F 3 "~" H 7750 4900 50  0001 C CNN
+	1    7750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C740
+P 8300 4900
+F 0 "R?" H 8370 4946 50  0000 L CNN
+F 1 "200 K" H 8370 4855 50  0000 L CNN
+F 2 "" V 8230 4900 50  0001 C CNN
+F 3 "~" H 8300 4900 50  0001 C CNN
+	1    8300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C746
+P 8850 4900
+F 0 "R?" H 8920 4946 50  0000 L CNN
+F 1 "200 K" H 8920 4855 50  0000 L CNN
+F 2 "" V 8780 4900 50  0001 C CNN
+F 3 "~" H 8850 4900 50  0001 C CNN
+	1    8850 4900
+	1    0    0    -1  
+$EndComp
+Text Label 6050 5050 3    50   ~ 0
+IO_A18
+Text Label 6650 5050 3    50   ~ 0
+IO_A19
+Text Label 7200 5050 3    50   ~ 0
+IO_A20
+Text Label 7750 5050 3    50   ~ 0
+IO_A21
+Text Label 8300 5050 3    50   ~ 0
+IO_A22
+Text Label 8850 5050 3    50   ~ 0
+IO_A23
+$Comp
+L Device:R R?
+U 1 1 6190C752
+P 5750 4750
+F 0 "R?" V 5543 4750 50  0000 C CNN
+F 1 "100 K" V 5634 4750 50  0000 C CNN
+F 2 "" V 5680 4750 50  0001 C CNN
+F 3 "~" H 5750 4750 50  0001 C CNN
+	1    5750 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C758
+P 6350 4750
+F 0 "R?" V 6143 4750 50  0000 C CNN
+F 1 "100 K" V 6234 4750 50  0000 C CNN
+F 2 "" V 6280 4750 50  0001 C CNN
+F 3 "~" H 6350 4750 50  0001 C CNN
+	1    6350 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C75E
+P 6950 4750
+F 0 "R?" V 6743 4750 50  0000 C CNN
+F 1 "100 K" V 6834 4750 50  0000 C CNN
+F 2 "" V 6880 4750 50  0001 C CNN
+F 3 "~" H 6950 4750 50  0001 C CNN
+	1    6950 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C764
+P 7450 4750
+F 0 "R?" V 7243 4750 50  0000 C CNN
+F 1 "100 K" V 7334 4750 50  0000 C CNN
+F 2 "" V 7380 4750 50  0001 C CNN
+F 3 "~" H 7450 4750 50  0001 C CNN
+	1    7450 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C76A
+P 8000 4750
+F 0 "R?" V 7793 4750 50  0000 C CNN
+F 1 "100 K" V 7884 4750 50  0000 C CNN
+F 2 "" V 7930 4750 50  0001 C CNN
+F 3 "~" H 8000 4750 50  0001 C CNN
+	1    8000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6190C770
+P 8550 4750
+F 0 "R?" V 8343 4750 50  0000 C CNN
+F 1 "100 K" V 8434 4750 50  0000 C CNN
+F 2 "" V 8480 4750 50  0001 C CNN
+F 3 "~" H 8550 4750 50  0001 C CNN
+	1    8550 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4750 5600 4750
+Connection ~ 5450 4750
+Wire Wire Line
+	5900 4750 6050 4750
+Wire Wire Line
+	6050 4750 6200 4750
+Connection ~ 6050 4750
+Wire Wire Line
+	6500 4750 6650 4750
+Wire Wire Line
+	6650 4750 6800 4750
+Connection ~ 6650 4750
+Wire Wire Line
+	7100 4750 7200 4750
+Wire Wire Line
+	7200 4750 7300 4750
+Connection ~ 7200 4750
+Wire Wire Line
+	7600 4750 7750 4750
+Wire Wire Line
+	7750 4750 7850 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	8150 4750 8300 4750
+Wire Wire Line
+	8300 4750 8400 4750
+Connection ~ 8300 4750
+Wire Wire Line
+	8700 4750 8850 4750
+Wire Wire Line
+	8850 4750 9350 4750
+Connection ~ 8850 4750
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 6190E454
+P 9650 4850
+F 0 "U?" H 9650 5217 50  0000 C CNN
+F 1 "LM324" H 9650 5126 50  0000 C CNN
+F 2 "" H 9600 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9700 5050 50  0001 C CNN
+	3    9650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4950 9350 5200
+Wire Wire Line
+	9350 5200 9950 5200
+Wire Wire Line
+	9950 5200 9950 4850
+Wire Wire Line
+	9950 4850 10400 4850
+Connection ~ 9950 4850
+$Comp
+L Device:R R?
+U 1 1 61918BCE
+P 4550 6000
+F 0 "R?" H 4620 6046 50  0000 L CNN
+F 1 "200 K" H 4620 5955 50  0000 L CNN
+F 2 "" V 4480 6000 50  0001 C CNN
+F 3 "~" H 4550 6000 50  0001 C CNN
+	1    4550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918BD4
+P 4550 5700
+F 0 "R?" H 4620 5746 50  0000 L CNN
+F 1 "200 K" H 4620 5655 50  0000 L CNN
+F 2 "" V 4480 5700 50  0001 C CNN
+F 3 "~" H 4550 5700 50  0001 C CNN
+	1    4550 5700
+	1    0    0    -1  
+$EndComp
+Text Label 4550 5550 0    50   ~ 0
+GND
+Text Label 4550 6150 3    50   ~ 0
+IO_A24
+$Comp
+L Device:R R?
+U 1 1 61918BDC
+P 5050 5850
+F 0 "R?" V 4843 5850 50  0000 C CNN
+F 1 "100 K" V 4934 5850 50  0000 C CNN
+F 2 "" V 4980 5850 50  0001 C CNN
+F 3 "~" H 5050 5850 50  0001 C CNN
+	1    5050 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 5850 4900 5850
+Connection ~ 4550 5850
+Wire Wire Line
+	5200 5850 5400 5850
+$Comp
+L Device:R R?
+U 1 1 61918BE5
+P 5400 6000
+F 0 "R?" H 5470 6046 50  0000 L CNN
+F 1 "200 K" H 5470 5955 50  0000 L CNN
+F 2 "" V 5330 6000 50  0001 C CNN
+F 3 "~" H 5400 6000 50  0001 C CNN
+	1    5400 6000
+	1    0    0    -1  
+$EndComp
+Text Label 5400 6150 3    50   ~ 0
+IO_A25
+$Comp
+L Device:R R?
+U 1 1 61918BEC
+P 6000 6000
+F 0 "R?" H 6070 6046 50  0000 L CNN
+F 1 "200 K" H 6070 5955 50  0000 L CNN
+F 2 "" V 5930 6000 50  0001 C CNN
+F 3 "~" H 6000 6000 50  0001 C CNN
+	1    6000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918BF2
+P 6600 6000
+F 0 "R?" H 6670 6046 50  0000 L CNN
+F 1 "200 K" H 6670 5955 50  0000 L CNN
+F 2 "" V 6530 6000 50  0001 C CNN
+F 3 "~" H 6600 6000 50  0001 C CNN
+	1    6600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918BF8
+P 7150 6000
+F 0 "R?" H 7220 6046 50  0000 L CNN
+F 1 "200 K" H 7220 5955 50  0000 L CNN
+F 2 "" V 7080 6000 50  0001 C CNN
+F 3 "~" H 7150 6000 50  0001 C CNN
+	1    7150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918BFE
+P 7700 6000
+F 0 "R?" H 7770 6046 50  0000 L CNN
+F 1 "200 K" H 7770 5955 50  0000 L CNN
+F 2 "" V 7630 6000 50  0001 C CNN
+F 3 "~" H 7700 6000 50  0001 C CNN
+	1    7700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C04
+P 8250 6000
+F 0 "R?" H 8320 6046 50  0000 L CNN
+F 1 "200 K" H 8320 5955 50  0000 L CNN
+F 2 "" V 8180 6000 50  0001 C CNN
+F 3 "~" H 8250 6000 50  0001 C CNN
+	1    8250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C0A
+P 8800 6000
+F 0 "R?" H 8870 6046 50  0000 L CNN
+F 1 "200 K" H 8870 5955 50  0000 L CNN
+F 2 "" V 8730 6000 50  0001 C CNN
+F 3 "~" H 8800 6000 50  0001 C CNN
+	1    8800 6000
+	1    0    0    -1  
+$EndComp
+Text Label 6000 6150 3    50   ~ 0
+IO_A26
+Text Label 6600 6150 3    50   ~ 0
+IO_A27
+Text Label 7150 6150 3    50   ~ 0
+IO_A28
+Text Label 7700 6150 3    50   ~ 0
+IO_A29
+Text Label 8250 6150 3    50   ~ 0
+IO_A30
+Text Label 8800 6150 3    50   ~ 0
+IO_A31
+$Comp
+L Device:R R?
+U 1 1 61918C16
+P 5700 5850
+F 0 "R?" V 5493 5850 50  0000 C CNN
+F 1 "100 K" V 5584 5850 50  0000 C CNN
+F 2 "" V 5630 5850 50  0001 C CNN
+F 3 "~" H 5700 5850 50  0001 C CNN
+	1    5700 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C1C
+P 6300 5850
+F 0 "R?" V 6093 5850 50  0000 C CNN
+F 1 "100 K" V 6184 5850 50  0000 C CNN
+F 2 "" V 6230 5850 50  0001 C CNN
+F 3 "~" H 6300 5850 50  0001 C CNN
+	1    6300 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C22
+P 6900 5850
+F 0 "R?" V 6693 5850 50  0000 C CNN
+F 1 "100 K" V 6784 5850 50  0000 C CNN
+F 2 "" V 6830 5850 50  0001 C CNN
+F 3 "~" H 6900 5850 50  0001 C CNN
+	1    6900 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C28
+P 7400 5850
+F 0 "R?" V 7193 5850 50  0000 C CNN
+F 1 "100 K" V 7284 5850 50  0000 C CNN
+F 2 "" V 7330 5850 50  0001 C CNN
+F 3 "~" H 7400 5850 50  0001 C CNN
+	1    7400 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C2E
+P 7950 5850
+F 0 "R?" V 7743 5850 50  0000 C CNN
+F 1 "100 K" V 7834 5850 50  0000 C CNN
+F 2 "" V 7880 5850 50  0001 C CNN
+F 3 "~" H 7950 5850 50  0001 C CNN
+	1    7950 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61918C34
+P 8500 5850
+F 0 "R?" V 8293 5850 50  0000 C CNN
+F 1 "100 K" V 8384 5850 50  0000 C CNN
+F 2 "" V 8430 5850 50  0001 C CNN
+F 3 "~" H 8500 5850 50  0001 C CNN
+	1    8500 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5850 5550 5850
+Connection ~ 5400 5850
+Wire Wire Line
+	5850 5850 6000 5850
+Wire Wire Line
+	6000 5850 6150 5850
+Connection ~ 6000 5850
+Wire Wire Line
+	6450 5850 6600 5850
+Wire Wire Line
+	6600 5850 6750 5850
+Connection ~ 6600 5850
+Wire Wire Line
+	7050 5850 7150 5850
+Wire Wire Line
+	7150 5850 7250 5850
+Connection ~ 7150 5850
+Wire Wire Line
+	7550 5850 7700 5850
+Wire Wire Line
+	7700 5850 7800 5850
+Connection ~ 7700 5850
+Wire Wire Line
+	8100 5850 8250 5850
+Wire Wire Line
+	8250 5850 8350 5850
+Connection ~ 8250 5850
+Wire Wire Line
+	8650 5850 8800 5850
+Wire Wire Line
+	8800 5850 9300 5850
+Connection ~ 8800 5850
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 6191B655
+P 9600 5950
+F 0 "U?" H 9600 6317 50  0000 C CNN
+F 1 "LM324" H 9600 6226 50  0000 C CNN
+F 2 "" H 9550 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9650 6150 50  0001 C CNN
+	4    9600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6050 9300 6300
+Wire Wire Line
+	9300 6300 9900 6300
+Wire Wire Line
+	9900 6300 9900 5950
+Wire Wire Line
+	9900 5950 10400 5950
+Connection ~ 9900 5950
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 61923AAB
+P 5050 6900
+F 0 "U?" V 4725 6900 50  0000 C CNN
+F 1 "LM324" V 4816 6900 50  0000 C CNN
+F 2 "" H 5000 7000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5100 7100 50  0001 C CNN
+	5    5050 6900
+	0    1    1    0   
+$EndComp
+Text Label 4750 6800 2    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 61928EFA
+P 5850 6800
+F 0 "J?" H 5822 6732 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5822 6823 50  0000 R CNN
+F 2 "" H 5850 6800 50  0001 C CNN
+F 3 "~" H 5850 6800 50  0001 C CNN
+	1    5850 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 6800 5650 6800
+Text Label 5650 6900 2    50   ~ 0
++3.3V
+Text Label 5650 6700 2    50   ~ 0
++5V
+$EndSCHEMATC

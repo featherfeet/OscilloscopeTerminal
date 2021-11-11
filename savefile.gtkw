@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.98 (w)1999-2019 BSI
+[*] Mon Nov  8 19:42:13 2021
+[*]
+[dumpfile] "/home/oliver/Projects/FPGA_Projects/OscilloscopeTerminal/dump.lxt"
+[dumpfile_mtime] "Mon Nov  8 19:42:10 2021"
+[dumpfile_size] 319922
+[savefile] "/home/oliver/Projects/FPGA_Projects/OscilloscopeTerminal/savefile.gtkw"
+[timestart] 0
+[size] 2560 1471
+[pos] -1 -1
+*-26.625330 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[sst_width] 383
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 418
+@8022
+test.top_instantiation.x_dac[7:0]
+@20000
+-
+@8022
+test.top_instantiation.y_dac[7:0]
+@20000
+-
+[pattern_trace] 1
+[pattern_trace] 0
