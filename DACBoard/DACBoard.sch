@@ -158,7 +158,7 @@ F 3 "~" H 5450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5450 2450 3    50   ~ 0
-IO_A1
+IO_A2
 $Comp
 L Device:R R11
 U 1 1 618DA779
@@ -226,17 +226,17 @@ F 3 "~" H 8850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6050 2450 3    50   ~ 0
-IO_A2
-Text Label 6650 2450 3    50   ~ 0
-IO_A3
-Text Label 7200 2450 3    50   ~ 0
 IO_A4
-Text Label 7750 2450 3    50   ~ 0
-IO_A5
-Text Label 8300 2450 3    50   ~ 0
+Text Label 6650 2450 3    50   ~ 0
 IO_A6
+Text Label 7200 2450 3    50   ~ 0
+IO_A8
+Text Label 7750 2450 3    50   ~ 0
+IO_A10
+Text Label 8300 2450 3    50   ~ 0
+IO_A12
 Text Label 8850 2450 3    50   ~ 0
-IO_A7
+IO_A14
 $Comp
 L Device:R R3
 U 1 1 618E09F3
@@ -361,7 +361,7 @@ $EndComp
 Text Label 4600 3050 0    50   ~ 0
 GND
 Text Label 4600 3650 3    50   ~ 0
-IO_A8
+IO_A1
 $Comp
 L Device:R R20
 U 1 1 618FB9F6
@@ -390,7 +390,7 @@ F 3 "~" H 5450 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5450 3650 3    50   ~ 0
-IO_A9
+IO_A3
 $Comp
 L Device:R R29
 U 1 1 618FBA06
@@ -458,15 +458,15 @@ F 3 "~" H 8850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6050 3650 3    50   ~ 0
-IO_A10
+IO_A5
 Text Label 6650 3650 3    50   ~ 0
-IO_A11
+IO_A7
 Text Label 7200 3650 3    50   ~ 0
-IO_A12
+IO_A9
 Text Label 7750 3650 3    50   ~ 0
-IO_A13
+IO_A11
 Text Label 8300 3650 3    50   ~ 0
-IO_A14
+IO_A13
 Text Label 8850 3650 3    50   ~ 0
 IO_A15
 $Comp
@@ -622,7 +622,7 @@ F 3 "~" H 5450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5450 4850 3    50   ~ 0
-IO_A17
+IO_A18
 $Comp
 L Device:R R47
 U 1 1 6190C728
@@ -690,17 +690,17 @@ F 3 "~" H 8850 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6050 4850 3    50   ~ 0
-IO_A18
-Text Label 6650 4850 3    50   ~ 0
-IO_A19
-Text Label 7200 4850 3    50   ~ 0
 IO_A20
-Text Label 7750 4850 3    50   ~ 0
-IO_A21
-Text Label 8300 4850 3    50   ~ 0
+Text Label 6650 4850 3    50   ~ 0
 IO_A22
+Text Label 7200 4850 3    50   ~ 0
+IO_A24
+Text Label 7750 4850 3    50   ~ 0
+IO_A26
+Text Label 8300 4850 3    50   ~ 0
+IO_A28
 Text Label 8850 4850 3    50   ~ 0
-IO_A23
+IO_A30
 $Comp
 L Device:R R39
 U 1 1 6190C752
@@ -829,7 +829,7 @@ $EndComp
 Text Label 4550 5350 0    50   ~ 0
 GND
 Text Label 4550 5950 3    50   ~ 0
-IO_A24
+IO_A17
 $Comp
 L Device:R R56
 U 1 1 61918BDC
@@ -858,7 +858,7 @@ F 3 "~" H 5400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5400 5950 3    50   ~ 0
-IO_A25
+IO_A19
 $Comp
 L Device:R R65
 U 1 1 61918BEC
@@ -926,15 +926,15 @@ F 3 "~" H 8800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6000 5950 3    50   ~ 0
-IO_A26
+IO_A21
 Text Label 6600 5950 3    50   ~ 0
-IO_A27
+IO_A23
 Text Label 7150 5950 3    50   ~ 0
-IO_A28
+IO_A25
 Text Label 7700 5950 3    50   ~ 0
-IO_A29
+IO_A27
 Text Label 8250 5950 3    50   ~ 0
-IO_A30
+IO_A29
 Text Label 8800 5950 3    50   ~ 0
 IO_A31
 $Comp
