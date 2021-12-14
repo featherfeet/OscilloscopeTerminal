@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.12)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.10)
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 1.5)
     (user_trace_width 0.5)
     (user_trace_width 0.8)
     (user_trace_width 1)
@@ -87,9 +87,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -3636,8 +3636,8 @@
     )
   )
 
-  (gr_text "DACBoard for Altera DE1 v0.0.1" (at 53.467 48.006) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "DACBoard\nfor Altera DE1\nv0.0.1" (at 34.036 47.1805) (layer F.Cu)
+    (effects (font (size 1.5 2) (thickness 0.3)) (justify left))
   )
   (gr_arc (start 130.636 105.2195) (end 135.636 105.2195) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 619EF584))
   (gr_arc (start 130.6195 45.767) (end 130.6195 40.767) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 619EF57F))
@@ -3903,7 +3903,7 @@
   (segment (start 86.36 49.784) (end 86.233 49.657) (width 0.8) (layer F.Cu) (net 78))
   (segment (start 86.36 52.324) (end 86.36 49.784) (width 0.8) (layer F.Cu) (net 78))
 
-  (zone (net 14) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 14) (net_name GND) (layer B.Cu) (tstamp 61A5060B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
